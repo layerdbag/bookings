@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/login
+Content-Type: application/json
+bearer_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtvZGVyb3lAZ21haWwuY29tIiwiaWQiOjIsImlhdCI6MTczODc4MjczOH0.qt1asdJ-TEf20PErJ-j5r71ajXcGfBHjR1sJDJQP8Ns"
+
+{
+    "email": "getrepor@gmail.com",
+    "password": "secret"
+}

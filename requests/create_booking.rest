@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/bookings
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNsZWVrQGdtYWlsLmNvbSIsImlkIjozLCJpYXQiOjE3Mzg5NDM0NDd9.iVnRIGH6wSs_9qukgGHWYXXWxuxWFcbL1uuHHs0AiQg
+
+{
+"deskId": 3,
+"roomId": 2,
+"date": "2025-02-07",
+"startTime": "12:50:00.000",
+"endTime": "16:52:00.000"
+}
